@@ -1,0 +1,107 @@
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+header nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Style the main content */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+article {
+  flex-basis: 45%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+article header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+article header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+article header p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+article p {
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Add color transitions between blog posts */
+article:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+article:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+article:nth-child(1) {
+  background-color: #fef8e8;
+}
+
+article:nth-child(2) {
+  background-color: #f2f9ff;
+}
+
+article:nth-child(3) {
+  background-color: #d5f5e3;
+}
+
+article:nth-child(4) {
+  background-color: #fbe9e7;
+}
+
+article:nth-child(5) {
+  background-color: #f6f5f7;
+}
